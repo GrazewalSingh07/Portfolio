@@ -196,10 +196,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+   
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  height: 100vh; 
+ justify-content: right;
+  background: url("../img/female\ developer\ 1-01.jpg") top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #hero:before {
   content: "";
@@ -367,6 +370,21 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+.skills{
+  display: flex;
+ 
+}
+.SkillSet{
+  margin:0px 0px 0px 20px;
+  align-items: center;
+}
+.SkillSet>img{
+  width: 100px;
+  height: 100px;
+}
+.SkillSet>P{
+  text-align:center;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -722,8 +740,10 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
+   
 }
+ 
 .contact .info {
   padding: 30px;
   background: #fff;
