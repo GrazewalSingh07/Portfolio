@@ -542,6 +542,9 @@ section {
   overflow: hidden;
   z-index: 1;
 }
+.portfolio-wrap>img{
+ height: 200px;
+}
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -775,14 +778,16 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 100px;
-   
+   width: 100%;
+   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); 
 }
- 
+
 .contact .info {
   padding: 30px;
-  background: #fff;
+  /* background: #fff; */
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+ 
+  
 }
 .contact .info i {
   font-size: 20px;
