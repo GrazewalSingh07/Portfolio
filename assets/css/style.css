@@ -386,7 +386,23 @@ section {
 --------------------------------------------------------------*/
 .skills{
   display: flex;
- 
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+ display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(92, 91, 91);
 }
 @media only screen and (max-width: 600px) {
   .skills{
